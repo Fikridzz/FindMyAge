@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/backround">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="71dp"
+        android:gravity="center_horizontal"
+        android:text="Berapa Umur Ku Sekarang"
+        android:textSize="25dp"
+        android:textColor="#fff"/>
+
+    <EditText
+        android:id="@+id/edtMasukanTahun"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="147dp"
+        android:hint="Masukan Tahun"
+        android:textColorHint="#9e9e9e"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/edtUmurKamu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="Umur Kamu"
+        android:textColorHint="#9e9e9e"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/btnHitungUmur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="173dp"
+        android:text="Hitung Umur"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
